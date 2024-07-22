@@ -24,7 +24,7 @@ function Tab({ id, title, index, moveTab, setActiveTab, activeTab }) {
 
   const springProps = useSpring({
     opacity: activeTab === id ? 1 : 0.6,
-    transform: activeTab === id ? 'scale(1.1)' : 'scale(1)',
+    transform: activeTab === id ? 'scale(1.05)' : 'scale(1)',
   });
 
   return (
